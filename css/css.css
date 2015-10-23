@@ -1,0 +1,468 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+
+	font-family:Verdana, Geneva, sans-serif;
+
+	font-size:12px;
+
+	color:#000;
+
+	background:#453a28 url(../images/bg.jpg) repeat-x left top scroll;
+
+	padding:0;
+
+	margin:0;
+
+	
+
+}
+
+#back{
+
+	background:url(../images/bg-1.png) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	-moz-background-size: cover;
+
+	-o-background-size: cover;
+
+	background-size: cover;
+
+}
+
+#botam{background:url(../images/futar_bg.jpg) repeat-x left bottom;}
+
+#hedar{background:url(../images/hedar_bg.jpg) no-repeat top center;}
+
+.call{
+
+	color:#fff;
+
+	font-size:20px;
+
+	font-family:serif;
+
+	font-style:italic;
+
+	font-weight:bold;
+
+	text-shadow:#000 0 1px 1px;
+
+}
+
+.call span {color:#2B7842; font-size:24px;}
+
+
+
+/*-------------- Menu --------------*/
+
+#menu {
+
+    color: #000000;
+
+	background:url(../images/menu_bg.gif) repeat-x left top;
+
+}
+
+#menu ul {
+
+    margin: 0 5px 0;
+
+    padding: 0;
+
+}
+
+#menu ul li {
+
+    
+
+	background:url(../images/menu_nod.gif) no-repeat left center;
+
+    float: left;
+
+    list-style: none outside none;
+
+	padding-right:4px;
+
+	padding-left:6px;
+
+}
+
+#menu ul li a {
+
+    color: #9dc121;
+
+    display: block;
+
+    font-size: 13px;
+
+	font-weight:bold;
+
+	padding:10px 20px;
+
+    text-decoration: none;
+
+    text-shadow: 0 1px 1px #000;
+
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+
+   color:#fff;
+
+}
+
+/*-------------- Menu End --------------*/
+
+
+
+.cantent{background:#fff; padding:10px;}
+
+
+
+h1 {
+
+    color: #2B7842;
+
+    font-family: Georgia;
+
+    font-size: 16px;
+
+	padding:0;
+
+	margin:0;
+
+}
+
+
+
+.welcom {	
+
+	font-family:serif;
+
+	font-style:italic;
+
+	font-size:22px;
+
+	color:#6d6d6d;
+
+	padding-left:10px;
+
+	text-shadow:#fff 0 1px 1px;
+
+	background:url(../images/wel_bg.png) no-repeat left bottom;
+
+}
+
+.welcom span {
+
+	color:#2B7842;
+
+	font-size:26px;
+
+}
+
+.img{
+
+	float:left;
+
+	padding:0 14px 0 0;
+
+}
+
+.text{
+
+	color:#666;
+
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+	font-size:13px;
+
+	text-align:justify;
+
+	line-height:22px;
+
+	padding:6px;
+
+	padding-top:0;
+
+	text-shadow:#fff 0 1px 1px;
+
+}
+
+.red a {
+
+	color:#F00;
+
+	text-decoration:underline;
+
+	text-shadow:#fff 0 1px 1px;
+
+}
+
+.red a:hover {
+
+	color:#333;
+
+	text-decoration:none;
+
+}
+
+input{
+
+	background:#fff;
+
+	border:#CCC 1px solid;
+
+	width:200px;
+
+}
+
+#left ul {
+
+	padding:0; 
+
+	margin:0px; 
+
+}
+
+#left ul li {border: 0; list-style: none outside none;}
+
+#left ul li a {
+
+	border-bottom: 1px dashed #ccc;
+
+	background:url(../images/arrow_icon.png) no-repeat left center; 
+
+	list-style:none;
+
+	font-size: 12px;
+
+	text-decoration: none;
+
+	color:#7aa103;
+
+	display:block;
+
+	padding:5px 5px 5px 15px;
+
+	text-align: left;
+
+	line-height:18px;
+
+	text-shadow:#fff 0 1px 1px;
+
+}
+
+#left ul li a:hover{color:#666;}
+
+.box{background:url(../images/50a2aaa985f38.png) no-repeat top center;}
+
+
+
+/*----------- futar ----------*/
+
+#fotter_bg{
+
+	font-size:12px;
+
+	color:#fff;
+
+}
+
+#fotter_bg a{ color:#666; text-decoration:none; line-height:16px;}
+
+#fotter_bg a:hover{ text-decoration:underline;}
+
+.p_head{
+
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+	font-size:18px;
+
+	color:#9dc121;
+
+	font-weight:bold;
+
+	text-shadow:#000 0 1px 1px;
+
+	}
+
+	.bord2{border-bottom:#E0E0E0 dashed 1px;}
+
+	
+
+/*-------------- Slider --------------*/
+
+
+
+.nivoSlider {
+
+	position:relative;
+
+	background: url(../images/loader.gif) no-repeat 50% 50%;
+
+}
+
+#slider {
+
+	position:relative;
+
+	width:950px;
+
+	height:280px;
+
+}
+
+#slider img {
+
+	position:absolute;
+
+	top:0px;
+
+	left:0px;
+
+	display:none;
+
+}
+
+#slider a {
+
+	border:0;
+
+	display:block;
+
+}
+
+.nivo-controlNav {
+
+	position:absolute;
+
+	left:390px;
+
+	bottom:0;
+
+	margin-bottom:-25px;
+
+}
+
+.nivo-controlNav a {
+
+	display:block;
+
+	width:22px;
+
+	height:22px;
+
+	background:url(../images/bullets.png) no-repeat;
+
+	text-indent:-9999px;
+
+	border:0;
+
+	margin-right:3px;
+
+	float:left;
+
+}
+
+.nivo-controlNav a.active {
+
+	background-position:0 -22px;
+
+}
+
+.nivo-directionNav a {
+
+	display:block;
+
+	width:30px;
+
+	height:30px;
+
+	background:url(../images/arrows.png) no-repeat;
+
+	text-indent:-9999px;
+
+	border:0;
+
+}
+
+a.nivo-nextNav {
+
+	background-position:-30px 0;
+
+	right:15px;
+
+}
+
+a.nivo-prevNav {
+
+	left:15px;
+
+}
+
+.nivo-caption {
+
+	text-shadow:none;
+
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.nivo-caption a {
+
+	color:#efe9d1;
+
+	text-decoration:underline;
+
+}
+
+
+
+/*-------------- Slider End --------------*/
+.wel{
+
+	color:#666;
+
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+	font-size:13px;
+
+	text-align:justify;
+
+	line-height:22px;
+
+	padding:6px;
+
+	padding-top:0;
+
+	text-shadow:#fff 0 1px 1px;
+
+}
+.wel img
+{margin-right:3px; padding:3px 3px; float:left; border:#ccc solid 1px;}
+.r
+{width:200px;
+border:#ccc solid 1px;
+padding:3px 3px;
+}
+.c
+{background:url(../images/BGCONTACTUS.gif) no-repeat left top;
+width:560px;
+border:#ccc solid 1px;
+}
+.bor
+{border:#ccc solid 1px;
+padding:3px 3px;
+}
+.f
+{color:#fff;
+}
+.bor1
+{border:#ccc solid 1px;
+}
